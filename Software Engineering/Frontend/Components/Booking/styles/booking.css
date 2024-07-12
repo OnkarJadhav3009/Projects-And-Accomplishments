@@ -1,0 +1,20 @@
+.main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color:  black;
+	width: 700%;
+	height: 700px;
+	justify-content: space-evenly;
+	margin: 3% auto;
+	text-decoration-color: white;
+	border-radius: 10px;
+	color: white;
+}
+
+@media(max-width: 768px){
+	.main{
+		background-color: transparent;
+	}
+}

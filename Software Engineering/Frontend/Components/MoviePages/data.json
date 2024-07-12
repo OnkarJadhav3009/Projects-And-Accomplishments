@@ -1,0 +1,273 @@
+{
+    "shows": [
+        {
+            "_id": "643728f58817a2f6ac485be7",
+            "show_id": "sh002",
+            "show_time": "2023-04-17T12:30:00.000Z",
+            "show_movietheater": [
+                {
+                    "_id": "642b65c550f15a17944e2c2c",
+                    "movietheater_id": "1",
+                    "movietheater_name": "Cinema Paradiso",
+                    "movietheater_address": "123 Main Street",
+                    "movietheater_location": "Chicago"
+                }
+            ],
+            "show_theaterscreen": [
+                {
+                    "_id": "642b64f750f15a17944e2c28",
+                    "theaterscreen_id": "3",
+                    "theaterscreen_name": "Screen 2",
+                    "theaterscreen_no_of_seats": 120,
+                    "theaterscreen_type": "IMAX",
+                    "theaterscreen_seats": [
+                        "A1",
+                        "A2",
+                        "A3",
+                        "A4",
+                        "A5",
+                        "B1",
+                        "B2",
+                        "B3",
+                        "B4",
+                        "B5",
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "D1",
+                        "D2",
+                        "D3",
+                        "D4",
+                        "D5"
+                    ]
+                }
+            ],
+            "show_movie": [
+                {
+                    "_id": "643724d18817a2f6ac485be2",
+                    "movie_id": 9,
+                    "movie_name": "Wolf on Wall Street",
+                    "movie_rating": "4",
+                    "movie_length": "3 hours",
+                    "movie_subtitles": [
+                        {
+                            "_id": "642a164c50f15a17944e2b7a",
+                            "language_id": "1",
+                            "language_name": "English"
+                        }
+                    ],
+                    "movie_cast": [
+                        {
+                            "_id": "643727448817a2f6ac485be4",
+                            "cast_id": "10",
+                            "cast_name": "Jordan Belfort",
+                            "cast_actor": "1"
+                        },
+                        {
+                            "_id": "643727778817a2f6ac485be6",
+                            "cast_id": "11",
+                            "cast_name": "Donnie Azoff",
+                            "cast_actor": "26"
+                        }
+                    ],
+                    "movie_release_date": "2013-12-25T00:00:00.000Z",
+                    "movie_image": "https://i5.walmartimages.com/asr/17ecdc7d-e177-4940-aa14-841d12cc8d18.0b4800a6942cee8622f7eb57eda3a4fb.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF",
+                    "movie_genres": [
+                        {
+                            "_id": "642a15d350f15a17944e2b6d",
+                            "genre_id": "5",
+                            "genre_name": "Crime"
+                        },
+                        {
+                            "_id": "642a15d350f15a17944e2b6c",
+                            "genre_id": "4",
+                            "genre_name": "Comedy"
+                        }
+                    ],
+                    "movie_languages": [
+                        {
+                            "_id": "642a164c50f15a17944e2b7c",
+                            "language_id": "3",
+                            "language_name": "French"
+                        },
+                        {
+                            "_id": "642a164c50f15a17944e2b7a",
+                            "language_id": "1",
+                            "language_name": "English"
+                        }
+                    ],
+                    "cast_actor": [
+                        {
+                            "_id": "642a147b50f15a17944e2b5d",
+                            "actor_id": "1",
+                            "actor_name": "Leonardo DiCaprio",
+                            "actor_occupation": "Actor",
+                            "actor_born": "1974-11-11T05:00:00.000Z",
+                            "actor_birthplace": "Los Angeles, California, U.S.",
+                            "actor_about": "Leonardo DiCaprio is an Academy Award-winning actor known for his roles in films such as Titanic, The Revenant, and The Wolf of Wall Street."
+                        },
+                        {
+                            "_id": "643723b28817a2f6ac485be1",
+                            "actor_id": "26",
+                            "actor_name": "Jonah Hill",
+                            "actor_occupation": "Actor",
+                            "actor_born": "1993-12-20T00:00:00.000Z",
+                            "actor_birthplace": "Los Angeles, California, U.S.",
+                            "Actor_about": "Jonah Hill grew up in an upper middle class in LA"
+                        }
+                    ]
+                }
+            ],
+            "show_rate": 10
+        },
+        {
+            "_id": "64373003ee539a09476c94f2",
+            "show_id": "sh003",
+            "show_time": "2023-04-17T05:25:00.000Z",
+            "show_movietheater": [
+                {
+                    "_id": "642b65c550f15a17944e2c2c",
+                    "movietheater_id": "1",
+                    "movietheater_name": "Cinema Paradiso",
+                    "movietheater_address": "123 Main Street",
+                    "movietheater_location": "Chicago"
+                }
+            ],
+            "show_theaterscreen": [
+                {
+                    "_id": "642b642454770c36f389ca4d",
+                    "theaterscreen_id": "1",
+                    "theaterscreen_name": "Screen 1",
+                    "theaterscreen_no_of_seats": 25,
+                    "theaterscreen_type": "IMAX",
+                    "theaterscreen_seats": [
+                        "A1",
+                        "A2",
+                        "A3",
+                        "A4",
+                        "A5",
+                        "B1",
+                        "B2",
+                        "B3",
+                        "B4",
+                        "B5",
+                        "C1",
+                        "C2",
+                        "C3",
+                        "C4",
+                        "C5",
+                        "D1",
+                        "D2",
+                        "D3",
+                        "D4",
+                        "D5",
+                        "E1",
+                        "E2",
+                        "E3",
+                        "E4",
+                        "E5"
+                    ]
+                }
+            ],
+            "show_movie": [
+                {
+                    "_id": "64372b978817a2f6ac485be9",
+                    "movie_id": 10,
+                    "movie_name": "Angry Birds Movie",
+                    "movie_rating": "2",
+                    "movie_length": "1 hour 37 minutes",
+                    "movie_subtitles": [
+                        {
+                            "_id": "642a164c50f15a17944e2b7a",
+                            "language_id": "1",
+                            "language_name": "English"
+                        }
+                    ],
+                    "movie_cast": [
+                        {
+                            "_id": "64372d5a8817a2f6ac485bed",
+                            "cast_id": "12",
+                            "cast_name": "Mighty Eagle",
+                            "cast_actor": "27"
+                        },
+                        {
+                            "_id": "64372e5c8817a2f6ac485bf0",
+                            "cast_id": "13",
+                            "cast_name": "Red",
+                            "cast_actor": "28"
+                        },
+                        {
+                            "_id": "64372f41ee539a09476c94ee",
+                            "cast_id": "14",
+                            "cast_name": "Chuck, Chuck",
+                            "cast_actor": "29"
+                        }
+                    ],
+                    "movie_release_date": "2016-06-05T04:00:00.000Z",
+                    "movie_image": "https://raisingchildren.net.au/__data/assets/image/0010/61102/Angry-Birds-movie.jpg",
+                    "movie_genres": [
+                        {
+                            "_id": "642a15d350f15a17944e2b6a",
+                            "genre_id": "2",
+                            "genre_name": "Adventure"
+                        },
+                        {
+                            "_id": "642a15d350f15a17944e2b69",
+                            "genre_id": "1",
+                            "genre_name": "Action"
+                        },
+                        {
+                            "_id": "642a15d350f15a17944e2b6b",
+                            "genre_id": "3",
+                            "genre_name": "Animation"
+                        }
+                    ],
+                    "movie_languages": [
+                        {
+                            "_id": "642a164c50f15a17944e2b7a",
+                            "language_id": "1",
+                            "language_name": "English"
+                        },
+                        {
+                            "_id": "642a164c50f15a17944e2b80",
+                            "language_id": "7",
+                            "language_name": "Hindi"
+                        }
+                    ],
+                    "cast_actor": [
+                        {
+                            "_id": "64372ce48817a2f6ac485beb",
+                            "actor_id": "27",
+                            "actor_name": "Peter Dinklage",
+                            "actor_occupation": "Actor",
+                            "actor_born": "1969-07-11T00:00:00.000Z",
+                            "actor_birthplace": "Morristown, New Jersery, U.S.",
+                            "Actor_about": "Peter Dinklage first got a taste of acting in fifth grade."
+                        },
+                        {
+                            "_id": "64372dc88817a2f6ac485bef",
+                            "actor_id": "28",
+                            "actor_name": "Jason Sudeikis",
+                            "actor_occupation": "Actor",
+                            "actor_born": "1975-09-18T00:00:00.000Z",
+                            "actor_birthplace": "Fairfax, Virgina , U.S.",
+                            "Actor_about": "Jason Sudeikis earned a basketball scholarship for Fort Scott Community College but was kicked off the team due to poor grades."
+                        },
+                        {
+                            "_id": "64372e8c8817a2f6ac485bf1",
+                            "actor_id": "29",
+                            "actor_name": "Josh Gad",
+                            "actor_occupation": "Actor",
+                            "actor_born": "1981-02-23T00:00:00.000Z",
+                            "actor_birthplace": "Hollywood, Florida, U.S.",
+                            "Actor_about": "Josh Gad while in University, won the National Forensics League National Tournament."
+                        }
+                    ]
+                }
+            ],
+            "show_rate": 10
+        }
+    ]
+}

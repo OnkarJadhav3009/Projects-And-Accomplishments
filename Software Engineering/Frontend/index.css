@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+}
+
+.slick-prev {
+  left: 3% ;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 3% ;
+  z-index: 1;
+}
+
+.transition-3 {
+  transition: all 0.33s ease;
+  -webkit-transition: all 0.33s ease;
+  -moz-transition: all 0.33s ease;
+}
+.ce-my-message-bubble {
+  background-color: #FFBF00;
+}
+
+.ce-chat-title-text {
+  color: #FFBF00 !important;
+}
+
+.ce-chat-subtitle-text {
+  color: #FFBF00 !important;
+  font-weight: 600;
+}
+
+#ce-send-message-button {
+  position: relative !important;
+  bottom: 2px !important;
+  left: 1px !important;
+  background-color: #FFBF00;
+}
+
+.ce-my-message-timestamp {
+  color: #FFBF00 !important;
+}
+
+.transition-5 {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+}

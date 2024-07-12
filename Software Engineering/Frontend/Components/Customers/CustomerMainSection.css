@@ -1,0 +1,46 @@
+.TextField {
+  padding-left: 0%;
+  padding-right: 0%;
+  color: white;
+  height: 50;
+  align-items:end;
+  text-decoration-color: black;
+  border-radius: 20px;
+}
+
+.search-results{
+padding-top: 50px;
+display: block;
+}
+
+
+.movie_info{
+display: flex;
+padding: 1rem;
+color: black;
+}
+
+.mainsection{
+background-color: black;
+padding: 50px;
+color: white;
+}
+
+.search-filter{
+position: relative;
+display: block;
+padding: 0rem 1rem 0rem 1rem;
+}
+
+.checkbox-1{
+position:absolute;
+left:3%;
+}
+.checkbox-2{
+position:absolute;
+left:15%;
+}
+.checkbox-3{
+position:relative;
+left:50%;
+}

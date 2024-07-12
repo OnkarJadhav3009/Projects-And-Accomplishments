@@ -1,0 +1,83 @@
+.reg-section {
+    font-size: medium;
+    font-style: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #606060;
+}
+
+.reg-main {
+    height: max-content;
+    background-color: #F5D16D;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-width: 1rem;
+    border-color: #333333;
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #333333;
+    border-radius: 2rem;
+}
+
+.reg-label {
+    font-size: large;
+    color: #ffffff;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reg-input {
+    font-size: 12px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 500px;
+}
+
+#reg-submit {
+    align-self: center;
+    width: 250px;
+}
+
+
+.instructions {
+    font-family: "Inter";
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #0000002c;
+    color: #ff5656;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    /* bottom: -10px; */
+    align-self: center;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.reg-formElement {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.errorMsg {
+    font-size: large;
+    color: #ff5656;
+    text-align: center;
+}

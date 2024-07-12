@@ -1,0 +1,153 @@
+/* Cards */
+.card-wrapper {
+  background-image: url('../../../public/images/photo2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0.85%;
+  color: #ffffff;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: right;
+  display: flex;
+
+
+}
+
+.body {
+  background-color: #000000;
+}
+.card {
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 460px;
+  box-shadow: 0 8px 26px -4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  background: white;
+}
+
+.card {
+  font-size: 0.9rem;
+  margin: top 1.5rem;
+  text-align: center;
+  color: var(--heading-color);
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: 500;
+  color: #666666;
+  margin-top: 10px;
+}
+
+.card p a {
+  color: var(--heading-color);
+  text-decoration: none;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.card--title {
+  margin-bottom: 0.5rem;
+  font-size: 2.0rem;
+  color: gray;
+}
+
+.card-list {
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+}
+
+.card--image {
+  margin-left: 1rem;
+  float: left;
+  padding: 35px;
+}
+
+.mvcard {
+  text-align: left;
+  padding: 2rem, 4rem;
+  border-radius: 30px;
+  width: 80rem;
+  height: 30rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0, 25);
+  margin-bottom: 3rem;
+  background-color: white;
+  color: #000000;
+  position: relative;
+}
+
+/* @media only screen and (max-width: 520px) {
+    .card-wrapper {
+      padding: 30px 0 0;
+    }
+  }
+   */
+@media (min-width: 768px) {
+  .card {
+    margin: 0 30px 60px;
+    padding: 20px 40px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .card {
+    margin: 0 0 30px;
+    padding: 30px 0 0;
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+/* Forms */
+
+.lg-label {
+  margin: 0 0 2px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: grey;
+
+}
+
+.field {
+  margin: 0 0 24px;
+  padding: 11px 16px 9px;
+  width: 100%;
+  font-size: 16px;
+  line-height: 26px;
+  color: black;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  display: block;
+  background: whitesmoke;
+  transition: border-color .15s ease;
+}
+
+.field:focus {
+  border-color: grey;
+  outline: none;
+}
+
+.error {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: red;
+}
+
+.error--hidden {
+  display: none;
+}
+
+.btn_secondary__btn_auth__btn{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease-in-out;
+}

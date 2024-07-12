@@ -1,0 +1,10 @@
+.sb-search {
+  display: flex;
+  grid-column: auto;
+}
+
+.sb-search-input {
+  padding: 0.5rem;
+  min-width: 500px;
+  max-width: 1000px;
+}
